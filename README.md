@@ -1,10 +1,12 @@
 # Caltech-Pedestrian-Detection-Visualization-
 Repository Contains codes to visualize Caltech Pedestrian Detection Dataset with bounding box annotations.
 
+
+
 ### Package Requirements
-numpy==1.16.5
-matplotlib==3.1.1
-json==2.0.9
+1.numpy==1.16.5
+2.matplotlib==3.1.1
+3.json==2.0.9
 
 ### Instructions
 Download caltech dataset files [here](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/). You may download all or either of the video sets. Regardless of however many
