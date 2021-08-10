@@ -5,7 +5,9 @@ Repository Contains codes to visualize Caltech Pedestrian Detection Dataset with
 
 ### Package Requirements
 1.numpy==1.16.5
+
 2.matplotlib==3.1.1
+
 3.json==2.0.9
 
 ### Instructions
