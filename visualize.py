@@ -1,6 +1,7 @@
 
 %matplotlib qt
 
+#%%
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -24,8 +25,8 @@ def drawBoundingBox(ax, boxes):
 
 fig = plt.figure()
 
-img_root = 'C:/Users/ahmad/OneDrive/Desktop/set00/extracted_data/set00/V010/images/'
-label_root = 'C:/Users/ahmad/OneDrive/Desktop/set00/extracted_data/set00/V010/annotations/'
+img_root = 'C:/Users/ahmad/OneDrive/Desktop/set00/extracted_data/set00/V009/images/'
+label_root = 'C:/Users/ahmad/OneDrive/Desktop/set00/extracted_data/set00/V009/annotations/'
 
 # ims is a list of lists, each row is a list of artists to draw in the
 # current frame; here we are just animating one artist, the image, in
@@ -54,5 +55,5 @@ for img_name, label_name in zip(glob.glob(img_root+'*.jpg'), glob.glob(label_roo
 ani = animation.ArtistAnimation(fig, ims, interval=10, blit=True,
                                 repeat_delay=1000)
 
-# ani.save('dynamic_images.mp4')
+#ani.save('C:/Users/ahmad/OneDrive/Desktop/caltech_annotated_images.mp4')
 plt.show()
