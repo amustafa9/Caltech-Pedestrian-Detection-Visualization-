@@ -1,7 +1,7 @@
 # Caltech-Pedestrian-Detection-Visualization-
 Repository Contains codes to visualize Caltech Pedestrian Detection Dataset with bounding box annotations.
 
-
+![tmp](https://user-images.githubusercontent.com/47633003/128796564-e49730b1-6f19-48be-a740-61096ab68c8b.gif)
 
 ### Package Requirements
 1.numpy==1.16.5
